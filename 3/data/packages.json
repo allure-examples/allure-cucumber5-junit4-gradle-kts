@@ -1,0 +1,112 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "src.test.resources.features",
+    "children" : [ {
+      "name" : "labels-rest_feature.Labels",
+      "children" : [ {
+        "name" : "Create new label via api",
+        "uid" : "3de3990e7541609a",
+        "parentUid" : "8ff005397e76b5afccf953489ac43785",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602556468384,
+          "stop" : 1602556468418,
+          "duration" : 34
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete existing label via api",
+        "uid" : "47d7ae6b988ee698",
+        "parentUid" : "8ff005397e76b5afccf953489ac43785",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602556468553,
+          "stop" : 1602556468564,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "labels-rest_feature.Labels"
+    }, {
+      "name" : "labels-web_feature.Labels",
+      "children" : [ {
+        "name" : "Create new label for authorized user",
+        "uid" : "5e6fa972cf5141f0",
+        "parentUid" : "8e3797e75959f171cd5854a85c6f6c7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602556468573,
+          "stop" : 1602556468582,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Add label to existing issue for authorized user",
+        "uid" : "e6f99031fb45a5d5",
+        "parentUid" : "8e3797e75959f171cd5854a85c6f6c7f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1602556468598,
+          "stop" : 1602556468643,
+          "duration" : 45
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Delete existing label for authorized user",
+        "uid" : "e3e04b412a64de8b",
+        "parentUid" : "8e3797e75959f171cd5854a85c6f6c7f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1602556468652,
+          "stop" : 1602556470671,
+          "duration" : 2019
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "labels-web_feature.Labels"
+    }, {
+      "name" : "milestone-web_feature.Milestones",
+      "children" : [ {
+        "name" : "Create new milestone for authorized user",
+        "uid" : "8cfda76bda2fbe15",
+        "parentUid" : "565d1963b8b5c2e428a5efd693a52323",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602556470680,
+          "stop" : 1602556470685,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Close existing milestone for authorized user",
+        "uid" : "3f86c8a296e11660",
+        "parentUid" : "565d1963b8b5c2e428a5efd693a52323",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602556470698,
+          "stop" : 1602556470706,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "milestone-web_feature.Milestones"
+    } ],
+    "uid" : "src.test.resources.features"
+  } ],
+  "name" : "packages"
+}

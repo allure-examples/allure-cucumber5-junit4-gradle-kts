@@ -1,0 +1,176 @@
+{
+  "uid" : "e3e04b412a64de8b",
+  "name" : "Delete existing label for authorized user",
+  "fullName" : "Labels: Delete existing label for authorized user",
+  "historyId" : "3b99172849a956d077462dbdc8532625",
+  "time" : {
+    "start" : 1602556468652,
+    "stop" : 1602556470671,
+    "duration" : 2019
+  },
+  "status" : "failed",
+  "statusMessage" : "expected:<[hello]> but was:<[another text]>",
+  "statusTrace" : "org.junit.ComparisonFailure: expected:<[hello]> but was:<[another text]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowAssertionException(WebSteps.java:97)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.notesShouldNotContainsNoteWithText(WebSteps.java:49)\n\tat ✽.I should not see note with content \"hello\"(file:///home/runner/work/allure-cucumber5-junit4-gradle-kts/allure-cucumber5-junit4-gradle-kts/src/test/resources/features/labels-web.feature:28)\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected:<[hello]> but was:<[another text]>",
+    "statusTrace" : "org.junit.ComparisonFailure: expected:<[hello]> but was:<[another text]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowAssertionException(WebSteps.java:97)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.notesShouldNotContainsNoteWithText(WebSteps.java:49)\n\tat ✽.I should not see note with content \"hello\"(file:///home/runner/work/allure-cucumber5-junit4-gradle-kts/allure-cucumber5-junit4-gradle-kts/src/test/resources/features/labels-web.feature:28)\n",
+    "steps" : [ {
+      "name" : "When  I open labels page",
+      "time" : {
+        "start" : 1602556468652,
+        "stop" : 1602556468652,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I create label with title \"hello\"",
+      "time" : {
+        "start" : 1602556468662,
+        "stop" : 1602556468662,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "And  I delete label with title \"hello\"",
+      "time" : {
+        "start" : 1602556468663,
+        "stop" : 1602556469664,
+        "duration" : 1001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Then  I should not see note with content \"hello\"",
+      "time" : {
+        "start" : 1602556469665,
+        "stop" : 1602556470668,
+        "duration" : 1003
+      },
+      "status" : "failed",
+      "statusMessage" : "expected:<[hello]> but was:<[another text]>",
+      "statusTrace" : "org.junit.ComparisonFailure: expected:<[hello]> but was:<[another text]>\n\tat org.junit.Assert.assertEquals(Assert.java:117)\n\tat org.junit.Assert.assertEquals(Assert.java:146)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.maybeThrowAssertionException(WebSteps.java:97)\n\tat io.qameta.allure.examples.cucumber5.WebSteps.notesShouldNotContainsNoteWithText(WebSteps.java:49)\n\tat ✽.I should not see note with content \"hello\"(file:///home/runner/work/allure-cucumber5-junit4-gradle-kts/allure-cucumber5-junit4-gradle-kts/src/test/resources/features/labels-web.feature:28)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "host",
+    "value" : "fv-az54"
+  }, {
+    "name" : "thread",
+    "value" : "4131@fv-az54.Test worker(9)"
+  }, {
+    "name" : "feature",
+    "value" : "Labels"
+  }, {
+    "name" : "story",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "suite",
+    "value" : "Labels"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete existing label for authorized user"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///home/runner/work/allure-cucumber5-junit4-gradle-kts/allure-cucumber5-junit4-gradle-kts/src/test/resources/features/labels-web.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.features.labels-web_feature.Labels"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "ce370bdb51245635",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle-kts/2//#testresult/ce370bdb51245635",
+        "status" : "broken",
+        "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+        "time" : {
+          "start" : 1601527606379,
+          "stop" : 1601527606385,
+          "duration" : 6
+        }
+      }, {
+        "uid" : "d2bf03c7dc82ebfd",
+        "reportUrl" : "https://allure-examples.github.io/allure-cucumber5-junit4-gradle-kts/1//#testresult/d2bf03c7dc82ebfd",
+        "status" : "broken",
+        "statusDetails" : "Element not found for xpath [//div[@class='something']]",
+        "time" : {
+          "start" : 1598459558465,
+          "stop" : 1598459558483,
+          "duration" : 18
+        }
+      } ]
+    },
+    "tags" : [ "smoke" ]
+  },
+  "source" : "e3e04b412a64de8b.json",
+  "parameterValues" : [ ]
+}
